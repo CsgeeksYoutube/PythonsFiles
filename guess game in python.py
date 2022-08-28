@@ -1,24 +1,24 @@
 from random import shuffle
 
-def shuffle_list(mylist):
-    shuffle(mylist)
-    return mylist
+def shuffle_list(list):
+    shuffle(list)
+    return list
 
 def player_guess():
-    guess=''
-    guess = input("choose a number: 0,1,2")
-    return int(guess)
+    guess1=''
+    while guess1 not in ['0','1','2']:
+        guess1 = input("pick a number:0,1,2")
+    return int(guess1)
 
-def check_guess():
-    if mylist[guess] == 'O':
-        print("correct")
+def check_guess(list,guess1):
+    if list[guess1]=='B':
+        print('correct')
     else:
-        print("wrong guess")
-        print(mylist)
+        print("wrong number")
+        print(list)
 
 
-mylist =['','O','']
-mixedup_list= shuffle_list(mylist)
-print(mixedup_list)
-guess= player_guess()
-check_guess(mixedup_list,guess)
+list=['','B','']
+mix_list= shuffle_list(list)
+guess = player_guess()
+check_guess(mix_list,guess)
