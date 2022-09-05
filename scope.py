@@ -36,14 +36,13 @@
 
 a=75
 def func(a):
-    
-   
     print(f'value of a is{a}')
     a=750
     print(f'new value of a is{a}')
-    return a
-    
-
+    return a 
 a=func(a)
 print(a)
 
+
+
+#   What is the Output?

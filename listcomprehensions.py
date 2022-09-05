@@ -25,5 +25,7 @@ cel =[0,10,20,30,40]
 #         list3.append(x*y)
 # print(list3)
 
-result =[x if x%2==0 else 'odd number' for x in range(0,20) ]
+
+
+result =[x if x%2==0 else 'odd number' for x in range(0,4) ]
 print(result)

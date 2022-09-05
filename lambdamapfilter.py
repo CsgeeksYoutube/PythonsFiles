@@ -20,6 +20,9 @@
 # a=list(filter(lambda num:num %2==0,number))
 # print(a)
 
+
 name=['vijay','ajay','ram']
 a=list(map(lambda x:x[::-1],name))
 print(a)
+
+# what is the output?
