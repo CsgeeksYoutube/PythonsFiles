@@ -1,0 +1,16 @@
+proxy object
+ bound
+ instance
+ class
+ unbound
+
+ super(base-class, derived-class)
+ super(base-class, instanceof class)
+
+ super()
+ instance method
+ super(class of method, self)
+
+ super()
+ class method
+ super(class of method, class)

@@ -8,13 +8,10 @@ def gift_dec(func):
 
 # def gift_need_decoration():
 #     print('i need wrapping')
-
 # gift_need_decoration()
-
 # decorated_func = gift_dec(gift_need_decoration)
 # decorated_func()
-
-# @gift_dec
+@gift_dec
 def gift_need_decoration():
     print('i need wrapping')
 
